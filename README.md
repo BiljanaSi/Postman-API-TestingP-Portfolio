@@ -29,3 +29,4 @@ The goal was to demonstrate end-to-end (E2E) API testing, including authenticati
 * Status Code Validations
 * Response Time Checks (< 800ms)
 * JSON Schema & Data Integrity Checks
+
