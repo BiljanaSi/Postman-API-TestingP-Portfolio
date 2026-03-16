@@ -30,3 +30,4 @@ The goal was to demonstrate end-to-end (E2E) API testing, including authenticati
 * Response Time Checks (< 800ms)
 * JSON Schema & Data Integrity Checks
 
+<img width="1367" height="724" alt="Image" src="https://github.com/user-attachments/assets/15acd00a-f649-49c5-8491-f3afba2f2b5c" />
