@@ -41,5 +41,5 @@ Internet connection (access to https://restful-booker.herokuapp.com)
 * Response Time Checks (< 800ms)
 * JSON Schema & Data Integrity Checks
 
-![Test Results]
+## Test Results
 <img width="1438" height="1133" alt="results" src="https://github.com/user-attachments/assets/df9bc6db-9f01-4a1e-80be-920572e44a06" />
