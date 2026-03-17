@@ -13,6 +13,17 @@ The goal was to demonstrate end-to-end (E2E) API testing, including authenticati
 * **Environment:** Postman Environments for dynamic variables
 * **API Documentation:** [Restful-Booker](https://restful-booker.herokuapp.com/)
 
+## 🛠️ Challenges & Solutions
+  
+Challenge: The API returns 404 Not Found instead of 403 Forbidden during a DELETE request with an invalid token if the ID doesn't exist.
+
+Solution: I implemented conditional testing logic using JavaScript to handle both status codes, ensuring the test suite remains robust and doesn't fail due to API design specifics.
+
+## ⚙️ Prerequisites
+
+Postman Desktop Agent
+Internet connection (access to https://restful-booker.herokuapp.com)
+
 ## 🧪 Scenarios Covered
 1. **Auth:** Generating a security token for restricted access.
 2. **Create Booking (POST):** Dynamic creation of booking data with automated ID extraction.
@@ -30,4 +41,5 @@ The goal was to demonstrate end-to-end (E2E) API testing, including authenticati
 * Response Time Checks (< 800ms)
 * JSON Schema & Data Integrity Checks
 
-<img width="1367" height="724" alt="Image" src="https://github.com/user-attachments/assets/15acd00a-f649-49c5-8491-f3afba2f2b5c" />
+![Test Results]
+<img width="1438" height="1133" alt="results" src="https://github.com/user-attachments/assets/df9bc6db-9f01-4a1e-80be-920572e44a06" />
